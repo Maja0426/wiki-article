@@ -1,0 +1,208 @@
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3 {
+	margin-bottom: .5rem;
+}
+
+body {
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.main-head, .left-row {
+	font-size: 14px;
+}
+
+.black {
+	color: #333;
+}
+
+i {
+	font-style: italic;
+}
+
+b {
+	font-weight: bold;
+}
+
+small {
+	font-size: 14px;
+}
+
+/* ====================== */
+/* ===  MAIN LAYOUTS  === */
+/* ====================== */
+
+.container {
+	position: relative;
+	width: 100vw;
+	height: 330vh;
+}
+
+.main-menu {
+	position: absolute;
+	padding: 10px;
+	top: 0;
+	left: 11vw;
+	width: 89vw;
+	height: 10vh;
+}
+
+.left-row {
+	position: absolute;
+	padding: 5px;
+	top: 0;
+	left: 0;
+	width: 12vw;
+	height: auto;
+}
+
+.content {
+	position: absolute;
+	padding: 5px;
+	top: 10vh;
+	height: auto;
+	width: 88vw;
+	left: 12vw;
+}
+
+.footer {
+	position: absolute;
+	display: inline-block;
+	padding: 20px;
+	bottom: 0;
+	width: 88vw;
+	left: 12vw;
+}
+
+/* ==================== */
+/* ==== MAIN MENU ===== */
+/* ==================== */
+
+
+.login-line {
+	display: block;
+	padding-top: 5px;
+	width: 30%;
+	float: right;
+}
+
+.main-head {
+	display: block;
+	width: 100%;
+}
+
+.main-menu a {
+	padding: 5px;
+}
+
+.searchbar-line {
+	display: block;
+	padding-top: 30px;
+}
+
+.searchbar {
+	display: inline-block;
+	float: right;
+}
+
+.login-line a, .menu-left, .menu-right {
+	padding: 5px;
+}
+
+.menu-right {
+	display: inline-block;
+	width: 40%;
+	float: right;
+}
+
+.menu-right span {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 4px;
+	padding-right: 195px;
+	border: 1px solid lightgray;
+	border-radius: 3px;
+	color: #333;
+}
+
+.searchbar-line a {
+}
+
+.menu-left {
+	display: inline-block;
+	float: left;
+}
+
+/* ===================== */
+/* ===== LEFT ROW  ===== */
+/* ===================== */
+
+.menu-row {
+	color: skyblue;
+}
+
+.left-row a {
+	display: block;
+	line-height: 1.3;
+}
+
+.menu-row {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	padding-top: 5px;
+}
+
+.main-page, .interaction, .tools, 
+.print-export, .languages {
+	padding: 10px;
+}
+
+.menu-row .black {
+	border-bottom: 1px solid lightgrey;
+	width: 100%;
+	padding: 3px;
+}
+
+.menu-row .strong {
+	font-weight: bold;
+}
+
+/* =================== */
+/* ===== CONTENT ===== */
+/* =================== */
+
+.content {
+	line-height: 1.2;
+	border-left: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	padding: 0 30px;
+}
+
+.content h1 {
+	font-size: 30px;
+	font-style: italic;
+}
+
+.content h2 {
+	font-size: 20px;
+}
+
+.content h1, .content h2 {
+	border-bottom: 2px solid lightgray;
+}
+
+.content p {
+	margin: 8px 0;
+}
+
